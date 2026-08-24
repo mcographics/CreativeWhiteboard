@@ -1,0 +1,11 @@
+node_modules
+dist
+release
+release-*/
+Linux Installers/
+test-artifacts/
+.docx-review-*/
+.vite
+src-tauri/target
+*.log
+.DS_Store

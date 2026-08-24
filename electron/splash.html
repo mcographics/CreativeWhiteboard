@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Creative Whiteboard is starting</title>
+    <link rel="stylesheet" href="./splash.css" />
+  </head>
+  <body>
+    <main class="splash" aria-label="Creative Whiteboard is loading">
+      <div class="grid"></div>
+      <div class="aurora aurora-blue"></div>
+      <div class="aurora aurora-purple"></div>
+      <section class="splash-content">
+        <div class="icon-stage">
+          <div class="icon-halo"></div>
+          <img class="app-icon" alt="Creative Whiteboard application icon" />
+          <i class="orbit orbit-one"></i><i class="orbit orbit-two"></i>
+        </div>
+        <h1><span>Creative</span> Whiteboard</h1>
+        <p class="tagline">Your ideas. Infinite canvas.</p>
+        <section class="loader" aria-live="polite">
+          <div class="loader-heading"><span id="loading-status">Preparing tools</span><output id="progress-value">8%</output></div>
+          <div class="progress-track"><i id="progress-fill"></i><b></b></div>
+        </section>
+        <div class="feature-row" aria-label="Application capabilities">
+          <div><strong>✎</strong><span>Draw</span><small>Pen, marker &amp; brush</small></div>
+          <div><strong>T</strong><span>Annotate</span><small>Text &amp; comments</small></div>
+          <div><strong>▣</strong><span>Sticky Notes</span><small>Capture reminders</small></div>
+          <div><strong>⇩</strong><span>Import</span><small>Images &amp; PDFs</small></div>
+          <div><strong>⇧</strong><span>Export</span><small>Save &amp; share</small></div>
+          <div><strong>∞</strong><span>Infinite</span><small>No canvas limits</small></div>
+        </div>
+      </section>
+      <footer>Majestic Creations <i></i> Creative Whiteboard</footer>
+    </main>
+    <script src="./splash.js"></script>
+  </body>
+</html>
